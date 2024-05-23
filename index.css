@@ -141,6 +141,8 @@ h4{
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 button{
     background-color: #ff004f;
@@ -165,7 +167,7 @@ button:hover{
     width: 100%;
     padding: 100px 0px;
 }
-.title h2{
+.skills h2{
     color: white;
     font-size: 75px;
     width: 1130px;
@@ -233,8 +235,14 @@ h5{
 }
 .contact-me{
     color: white;
-    font-size: 30px;
+    font-size: 17px;
     font-weight: bold;
+}
+.contact-me p{
+    margin-top: 20px;
+}
+.contact-me p:nth-child(3){
+    margin-bottom: 30px;
 }
 .contact-me .button-two{
     background-color: #ff004f;
