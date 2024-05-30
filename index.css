@@ -308,3 +308,32 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 14px;
 }
+/* 
+
+
+
+#changing-text {
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    animation: slide 4s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    10%, 40% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    50%, 90% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+} */
