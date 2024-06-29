@@ -1,0 +1,51 @@
+/* Basic reset and layout */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Header styles */
+  h1 {
+    margin-top: 0;
+  }
+  
+  .category {
+    margin-bottom: 20px;
+  }
+  
+  /* Question boxes */
+  .question-boxes {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .question-box {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: green; /* Initial color */
+    border: 1px solid #ccc;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px; /* Larger font size */
+    vertical-align: middle; /* Vertical alignment */
+  }
+  
+  .question-box.selected {
+    background-color: red; /* Selected color */
+    color: white;
+  }
+  

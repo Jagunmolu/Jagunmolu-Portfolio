@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bible Quiz App</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file here -->
+</head>
+<body>
+  <div class="container">
+    <h1>Bible Quiz App</h1>
+    <button id="start-quiz">Start Quiz</button>
+    <form id="password-form" class="hidden">
+      <label for="password">Enter Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div id="quiz-container" class="container hidden">
+    <div class="category">
+      <label for="category-select">Select Category:</label>
+      <select id="category-select">
+        <option value="general">General Questions (5 per participant)</option>
+        <option value="recitation">Recitation (1 per participant)</option>
+        <option value="fill_gap">Fill in the Gap (2 per participant)</option>
+        <option value="true_false">True or False (1 per participant)</option>
+        <option value="spelling">Spelling (1 per participant)</option>
+      </select>
+    </div>
+
+    <div id="question-boxes" class="question-boxes">
+      <!-- Question boxes will be populated dynamically -->
+    </div>
+
+    <div id="question-display" class="hidden">
+      <h2 id="question-title"></h2>
+      <p id="question-answer"></p>
+      <button id="go-back">Go back to questions</button>
+    </div>
+
+    <button id="end-quiz">End Quiz</button>
+  </div>
+
+  <div id="confirm-modal" class="modal">
+    <div class="modal-content">
+      <p>Are you sure?</p>
+      <button id="confirm-yes">Yes</button>
+      <button id="confirm-no">No</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
