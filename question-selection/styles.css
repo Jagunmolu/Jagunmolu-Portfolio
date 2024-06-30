@@ -47,3 +47,42 @@ h1 {
   background-color: red; /* Selected color */
   color: white;
 }
+
+/* Question view area */
+.question-view {
+  margin-top: 20px;
+  text-align: left; /* Align question and answer text to the left */
+}
+
+.question-text {
+  font-size: 40px; /* Larger font size for question text */
+  font-weight: bold; /* Bold weight for question text */
+  text-align: justify;
+}
+
+.answer-text {
+  font-size: 50px; /* Font size for answer text */
+  font-weight: bold; /* Bold weight for answer text */
+  margin-top: 10px; /* Space between question and answer */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
