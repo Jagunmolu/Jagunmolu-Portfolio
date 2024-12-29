@@ -1,0 +1,99 @@
+/* Basic reset and layout */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-size: cover; */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  /* .logo {
+    display: inline-block;
+    width: 100%;
+  } */
+  
+  /* Header styles */
+  h1 {
+    margin-top: 0;
+  }
+  
+  .category {
+    margin-bottom: 20px;
+  }
+  
+  /* Question boxes */
+  .question-boxes {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .question-box {
+    display: inline-block;
+    width: 100px;
+    height: 65px;
+    margin: 5px;
+    background-color: green; /* Initial color */
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em; /* Set font size relative to parent */
+    padding-top: 10px; /* Adjust padding for vertical centering */
+  }
+  
+  .question-box.selected {
+    background-color: red; /* Selected color */
+    color: white;
+  }
+  
+  /* Question view area */
+  .question-view {
+    margin-top: 20px;
+    text-align: left; /* Align question and answer text to the left */
+  }
+  
+  .question-text {
+    font-size: 40px; /* Larger font size for question text */
+    font-weight: bold; /* Bold weight for question text */
+    text-align: justify;
+  }
+  
+  .answer-text {
+    font-size: 50px; /* Font size for answer text */
+    font-weight: bold; /* Bold weight for answer text */
+    margin-top: 10px; /* Space between question and answer */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
